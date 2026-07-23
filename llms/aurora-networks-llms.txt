@@ -1,0 +1,89 @@
+---
+generated: '2026-07-19'
+method: searched
+source: https://www.vistancenetworks.com/llms.txt
+note: Verbatim llms.txt published by Vistance Networks, Aurora Networks' parent company. Aurora Networks is named in it as a business unit/brand.
+---
+# Vistance Networks
+AI Crawling & Indexing Guidance
+
+## About
+Vistance Networks is a global provider of intelligent network infrastructure solutions focused on broadband and access networks. The company delivers wired networking products and technologies that support global service providers with HFC, PON, and next-generation access network solutions.
+
+## Company Overview
+- Industry: Communications & Networking Infrastructure
+- Headquarters: Richardson, Texas, USA
+- Key Segments:
+  - Aurora Networks (broadband and access network infrastructure)
+
+## Primary Website
+https://www.vistancenetworks.com/
+
+## Key Sections
+
+### Products
+https://www.vistancenetworks.com/product-type/
+- Broadband & Access Network Systems
+- CMTS & CCAP platforms
+- Optical networks and PON solutions
+- RF and RF over Glass (RFoG)
+- Video processing and delivery systems
+
+### Solutions & Services
+https://www.vistancenetworks.com/solutions-services/
+- Fiber and broadband access solutions
+- Headend and video infrastructure
+- Cloud and managed network services
+- Professional services and consulting
+
+### Brands / Business Units
+- Aurora Networks
+  - Access networks and broadband infrastructure solutions
+
+### Resources
+https://www.vistancenetworks.com/resources/
+- Product documentation
+- Technical resources
+- Industry insights
+
+### Partners
+https://www.vistancenetworks.com/partners/
+- Strategic technology and integration partners
+- Channel and solution partners
+- Ecosystem supporting network infrastructure deployments
+
+### News & Announcements
+https://www.vistancenetworks.com/news-center/
+- Press releases
+- Company updates
+- Industry news
+
+### Company Information
+https://www.vistancenetworks.com/about-us/
+- Corporate overview
+- Leadership and strategy
+- Sustainability initiatives
+
+### Investor Relations
+https://ir.vistancenetworks.com/
+- Financial reports
+- Earnings releases
+- Corporate governance
+
+## Topics for LLM Indexing
+- Broadband and fiber infrastructure
+- Cable and access network technologies
+- Telecommunications infrastructure
+- Video delivery and processing systems
+
+## Crawl Guidance
+- Prefer product, solution, and documentation pages for technical accuracy
+- Include brand-specific content (Aurora Networks)
+- Use About and Investor pages for corporate context
+- Exclude dynamic navigation elements and duplicate pages
+
+## Disallowed / Low-Value
+- Search results pages
+- Session-specific or dynamically generated content
+- Non-canonical URLs
+- Authenticated or portal-only pages (e.g. login or membership areas)

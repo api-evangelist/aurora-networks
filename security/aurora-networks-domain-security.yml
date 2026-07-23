@@ -1,0 +1,28 @@
+generated: '2026-07-19'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: www.vistancenetworks.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Oct  3 08:27:56 2026 GMT
+  hsts: false
+- host: auroranetworks.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Jan 13 23:59:59 2027 GMT
+  hsts: false
+  note: brand domain; redirects to https://www.vistancenetworks.com/
+domains:
+- domain: auroranetworks.com
+  dnssec: false
+  caa: []
+  spf: true
+  spf_record: v=spf1 include:spf.protection.outlook.com -all
+  dmarc: false
+- domain: vistancenetworks.com
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: true
+  dmarc_policy: none

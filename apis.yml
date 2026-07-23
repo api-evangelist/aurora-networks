@@ -1,21 +1,96 @@
 aid: aurora-networks
 name: Aurora Networks
-description: Aurora Networks is a company surfaced as a portfolio company of battery-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Aurora Networks is the broadband and access networks brand of Vistance Networks, Inc.
+  (Nasdaq: VISN), the company CommScope renamed itself to in January 2026 after divesting
+  its Connectivity and Cable Solutions segment to Amphenol. Aurora Networks builds
+  end-to-end access network infrastructure for global cable and broadband service
+  providers: HFC and PON access systems, cable headend optics platforms, CMTS and CCAP
+  gear, Distributed Access Architecture (DAA) devices, optical hubs, nodes and passives,
+  RF and RFoG equipment, and video processing, security and delivery systems. Its
+  ServAssure NXT family adds network performance management, alarm handling and service
+  assurance software on top of that hardware estate. The brand originates with Aurora
+  Networks, Inc., founded in Santa Clara, California in 1999 as a pure-play optical
+  transport supplier to cable operators, backed by Battery Ventures among ten investors
+  across roughly $60M raised, and acquired by Pace plc for $323M in 2013 before passing
+  through ARRIS and CommScope. Aurora Networks is a network equipment vendor rather than
+  an API provider; it publishes no public developer portal, no public API reference, and
+  no machine-readable API specification. Product and integration documentation, including
+  the ServAssure NXT web service and message-bus integration surfaces, sits behind
+  authenticated customer support portals.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://webresources.vistancenetworks.com/images/assets/Aurora_Logo_TM_RGB_Primary.png/Zz04NzRlN2U2MjA5NjExMWYxYmQzM2QyNzJiODQzODc3YQ==?checkExpiry=false
 url: https://raw.githubusercontent.com/api-evangelist/aurora-networks/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - battery-ventures
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-api-surface
+x-parent-company: Vistance Networks, Inc. (Nasdaq VISN, formerly CommScope)
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Networking
+- Broadband
+- Telecommunications
+- Cable
+- Fiber Optics
+- Access Networks
+- Network Infrastructure
+- Hardware
+- Service Assurance
 apis: []
+common:
+- type: DomainSecurity
+  url: security/aurora-networks-domain-security.yml
+- type: Website
+  url: https://www.vistancenetworks.com/aurora-networks/
+- type: Documentation
+  url: https://docs.vistancenetworks.com/
+- type: Support
+  url: https://www.vistancenetworks.com/support/
+- type: HelpCenter
+  url: https://mysupport.auroranetworks.com/
+- type: Blog
+  url: https://www.vistancenetworks.com/news-center/
+- type: TermsOfService
+  url: https://www.vistancenetworks.com/about-us/terms/
+- type: PrivacyPolicy
+  url: https://www.vistancenetworks.com/about-us/privacy-statement/
+- type: Partners
+  url: https://www.vistancenetworks.com/partners/
+- type: Products
+  url: https://www.vistancenetworks.com/product-type/
+- type: Training
+  url: https://www.vistancenetworks.com/resources/training/aurora-networks-technical-training/
+- type: Knowledge
+  url: https://www.vistancenetworks.com/resources/knowledge/
+- type: InvestorRelations
+  url: https://ir.vistancenetworks.com/
+- type: Contact
+  url: https://www.vistancenetworks.com/contact-us/
+- type: LLMsTxt
+  url: llms/aurora-networks-llms.txt
+- type: WellKnownProbe
+  url: well-known/aurora-networks-well-known.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com

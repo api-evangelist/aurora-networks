@@ -1,0 +1,41 @@
+generated: '2026-07-19'
+method: probed
+source: live HTTP probe of Aurora Networks / Vistance Networks web hosts
+note: >-
+  No /.well-known/ discovery documents are published on either the Aurora Networks
+  domain or its parent Vistance Networks domain. Every probe returned 404. This is
+  an honest negative result, not a gap in probing. An llms.txt IS published and was
+  captured verbatim at llms/aurora-networks-llms.txt.
+hosts:
+  - host: https://www.vistancenetworks.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404
+      - path: /.well-known/ai-plugin.json
+        status: 404
+      - path: /llms.txt
+        status: 200
+        file: ../llms/aurora-networks-llms.txt
+      - path: /robots.txt
+        status: 200
+      - path: /sitemap.xml
+        status: 200
+  - host: https://auroranetworks.com
+    note: redirects to https://www.vistancenetworks.com/
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404
+      - path: /.well-known/ai-plugin.json
+        status: 404
