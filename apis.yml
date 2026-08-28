@@ -18,6 +18,17 @@ description: >-
   no machine-readable API specification. Product and integration documentation, including
   the ServAssure NXT web service and message-bus integration surfaces, sits behind
   authenticated customer support portals.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
