@@ -42,6 +42,9 @@ accessModel:
   method: derived
 image: https://webresources.vistancenetworks.com/images/assets/Aurora_Logo_TM_RGB_Primary.png/Zz04NzRlN2U2MjA5NjExMWYxYmQzM2QyNzJiODQzODc3YQ==?checkExpiry=false
 url: https://raw.githubusercontent.com/api-evangelist/aurora-networks/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Aurora Networks is a network equipment vendor rather than an API provider; it publishes no public developer portal, no public API reference, and no machine-readable API specification."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
