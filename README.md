@@ -64,33 +64,84 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Aurora Networks is the broadband and access networks brand of **Vistance Networks, Inc.** (Nasdaq: VISN) — the company CommScope renamed itself to in January 2026 after divesting its Connectivity and Cable Solutions segment to Amphenol. Aurora Networks builds end-to-end access network infrastructure for global cable and broadband service providers: HFC and PON access systems, cable headend optics platforms, CMTS/CCAP, Distributed Access Architecture (DAA) devices, optical hubs, nodes and passives, RF and RFoG equipment, and video processing, security and delivery systems. Its ServAssure NXT family adds network performance management, alarm handling and service assurance software.
+Aurora Networks is the broadband and access networks brand of Vistance Networks, Inc. (Nasdaq: VISN), the company CommScope renamed itself to in January 2026 after divesting its Connectivity and Cable Solutions segment to Amphenol. Aurora Networks builds end-to-end access network infrastructure for global cable and broadband service providers: HFC and PON access systems, cable headend optics platforms, CMTS and CCAP gear, Distributed Access Architecture (DAA) devices, optical hubs, nodes and passives, RF and RFoG equipment, and video processing, security and delivery systems. Its ServAssure NXT family adds network performance management, alarm handling and service assurance software on top of that hardware estate. The brand originates with Aurora Networks, Inc., founded in Santa Clara, California in 1999 as a pure-play optical transport supplier to cable operators, backed by Battery Ventures among ten investors across roughly $60M raised, and acquired by Pace plc for $323M in 2013 before passing through ARRIS and CommScope. Aurora Networks is a network equipment vendor rather than an API provider; it publishes no public developer portal, no public API reference, and no machine-readable API specification. Product and integration documentation, including the ServAssure NXT web service and message-bus integration surfaces, sits behind authenticated customer support portals.
 
-## Lineage
+**Areas:** Company · Networking · Broadband · Telecommunications · Cable · Fiber Optics · Access Networks · Network Infrastructure · Hardware · Service Assurance
 
-- **1999** — Aurora Networks, Inc. founded in Santa Clara, CA as a pure-play optical transport supplier to cable operators. Backed by Battery Ventures among ten investors, ~$60M raised.
-- **2013** — Acquired by Pace plc for $323M.
-- **2016** — Pace merged into ARRIS.
-- **2019** — ARRIS acquired by CommScope.
-- **Jan 2026** — CommScope divests Connectivity and Cable Solutions to Amphenol, renames itself Vistance Networks, and rebrands its Access Networks Solutions business as **Aurora Networks**.
+## Aurora Networks on APIs.io
 
-Backed by: battery-ventures
+Everything profiled for Aurora Networks is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/aurora-networks/](https://apis.io/providers/aurora-networks/)** — or go straight to one of the APIs or properties below.
 
-## API surface
+### Published properties
 
-**Aurora Networks is a network equipment vendor, not an API provider.** As of the 2026-07-19 enrichment pass it publishes:
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-- No public developer portal, API reference, or machine-readable API specification (OpenAPI/AsyncAPI/GraphQL/Protobuf).
-- No first-party SDKs or CLI on npm, PyPI, or other public registries.
-- No `/.well-known/` discovery documents (all probes 404).
-- No status page, trust center, or vulnerability disclosure program.
+#### Security (1)
 
-Product and integration documentation — including the ServAssure NXT web service API and message bus referenced in product literature — sits behind authenticated customer portals (`mysupport.auroranetworks.com`, `docs.vistancenetworks.com`).
+Authentication, trust centre, and vulnerability disclosure.
 
-## Artifacts
+- [Aurora Networks Domain Security](https://apis.io/security/aurora-networks/aurora-networks-domain-security/)
 
-| Path | Type | Method |
-|---|---|---|
-| `llms/aurora-networks-llms.txt` | LLMsTxt | searched (verbatim from vistancenetworks.com/llms.txt) |
-| `well-known/aurora-networks-well-known.yml` | well-known probe record | probed (all 404) |
-| `security/aurora-networks-domain-security.yml` | DomainSecurity | probed |
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.vistancenetworks.com/aurora-networks/)
+- [Documentation](https://docs.vistancenetworks.com/)
+- [Support](https://www.vistancenetworks.com/support/)
+- [Blog](https://www.vistancenetworks.com/news-center/)
+- [Terms of service](https://www.vistancenetworks.com/about-us/terms/)
+- [Privacy policy](https://www.vistancenetworks.com/about-us/privacy-statement/)
+
+## API Evangelist rating
+
+**Kin Score 11.8** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 16.7 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 11.7** — Telecommunications
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/aurora-networks/](https://apis.io/providers/aurora-networks/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Aurora Networks: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/aurora-networks/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
